@@ -155,7 +155,7 @@ function getS3Data(marker, html) {
       .fail(function(error) {
 //         console.log('Milad');
         console.error(error);
-        $('#listing').html('<strong>Error: ' + error + '</strong>');
+        $('#listing').html('<strong>Errors:= ' + error + '</strong>');
       });
 }
 
